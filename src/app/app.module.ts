@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { WeicomeComponent } from './weicome/weicome.component';
 import { IamsudhaComponent } from './iamsudha/iamsudha.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IamsudhaComponent } from './iamsudha/iamsudha.component';
     LoginComponent,
     DashboardComponent,
     WeicomeComponent,
-    IamsudhaComponent
+    IamsudhaComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
